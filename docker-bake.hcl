@@ -44,7 +44,7 @@ target "bench" {
     }
     context = "images/bench"
     target = "bench"
-    tags = ["frappe/bench:${LATEST_BENCH_RELEASE}"]
+    tags = ["frappe/bench:latest", "frappe/bench:${LATEST_BENCH_RELEASE}"]
 }
 
 target "bench-test" {
